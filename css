@@ -1,0 +1,131 @@
+.box {
+color: #4f1336;
+font-family: comic sans ms;
+font-weight: 600;
+text-align: center;
+font-size: 13pt
+}
+h1 {
+font-weight: bold;
+font-style: italic;
+font-family: comic sans ms;
+color: #FF2F8D;
+filter: drop-shadow(0px 0px 2px #FF2F8D)
+}
+
+::selection {
+  background: transparent;
+}
+/* CLOUDS */
+body:before {
+  content: "";
+  margin: auto;
+  border-radius: 100%;
+  background: transparent;
+  display: block;
+}
+/* JUMP */
+h1 {
+  cursor: default;
+font-size: 2pt;
+  margin: auto;
+  display: block;
+}
+
+h1 span {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  animation: bounce 300ms ease infinite alternate;
+  font-size: 20pt;
+}
+
+h1 span:nth-child(2) {
+  animation-delay: 100ms;
+}
+
+h1 span:nth-child(3) {
+  animation-delay: 200ms;
+}
+
+h1 span:nth-child(4) {
+  animation-delay: 300ms;
+}
+
+h1 span:nth-child(5) {
+  animation-delay: 400ms;
+}
+
+h1 span:nth-child(6) {
+  animation-delay: 500ms;
+}
+
+h1 span:nth-child(7) {
+  animation-delay: 600ms;
+}
+
+h1 span:nth-child(8) {
+  animation-delay: 200ms;
+}
+
+h1 span:nth-child(9) {
+  animation-delay: 300ms;
+}
+
+h1 span:nth-child(10) {
+  animation-delay: 400ms;
+}
+
+h1 span:nth-child(11) {
+  animation-delay: 500s;
+}
+
+h1 span:nth-child(12) {
+  animation-delay:https://proxy.everskies.com/a/0.6s;
+}
+
+h1 span:nth-child(13) {
+  animation-delay:https://proxy.everskies.com/a/0.7s;
+}
+
+h1 span:nth-child(14) {
+  -webkit-animation-delay: https://proxy.everskies.com/a/0.8s;
+}
+h1 span:nth-child(15) {
+  -webkit-animation-delay: https://proxy.everskies.com/a/0.9s;
+}
+h1 span:nth-child(16) {
+  -webkit-animation-delay: 1s;
+}
+h1 span:nth-child(17) {
+  -webkit-animation-delay: https://proxy.everskies.com/a/1.1s;
+}
+h1 span:nth-child(18) {
+  -webkit-animation-delay: https://proxy.everskies.com/a/1.2s;
+}
+h1 span:nth-child(19) {
+  -webkit-animation-delay: https://proxy.everskies.com/a/1.3s;
+}
+h1 span:nth-child(20) {
+  -webkit-animation-delay: https://proxy.everskies.com/a/1.4s;
+}
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -5px;
+  }
+}
+a {
+color: #FF2F8D;
+filter: drop-shadow(0px 0px 2px #FF2F8D);
+text-decoration: none;
+}
+a:hover {
+letter-spacing: 3px;
+transition: 1s;
+}
+b {
+font-weight: 1000;
+background-color: #F22C85;
+color: white;
+}
